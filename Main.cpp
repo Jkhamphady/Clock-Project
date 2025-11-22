@@ -13,7 +13,7 @@ void displayClocks(const Clock& c) {
     cout << "**************************   **************************\n";
     cout << "*     12-Hour Clock      *   *     24-Hour Clock      *\n";
     cout << "*      " << c.get12HourString() << "       *   *       "
-        << c.get24HourString() << "        *\n";
+        << c.get24HourString() << "         *\n";
     cout << "**************************   **************************\n";
 }
 
